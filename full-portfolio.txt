@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<!--[if IE 8 ]>
+<html class="no-js oldie ie8" lang="en">
+   <![endif]-->
+   <!--[if IE 9 ]>
+   <html class="no-js oldie ie9" lang="en">
+      <![endif]-->
+      <!--[if (gte IE 9)|!(IE)]><!-->
+      <html class="no-js" lang="en">
+         <!--<![endif]-->
+         <head>
+            <!--- basic page needs
+               ================================================== -->
+            <meta charset="utf-8">
+            <title>Avnish</title>
+            <meta name="description" content="Portfolio of Rajat Bhardwaj">
+            <meta name="author" content="Rajat">
+            <!-- mobile specific metas
+               ================================================== -->
+            <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+            <!-- CSS
+               ================================================== -->
+            <link rel="stylesheet" href="css/base.css">
+            <link rel="stylesheet" href="css/main.css">
+            <link rel="stylesheet" href="css/vendor.css">
+            <link rel="stylesheet" href="css/portfolio.css">
+            <!-- FONT AWESOME
+               ================================================== -->
+            <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" 
+               integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+               crossorigin="anonymous">
+            <!-- script
+               ================================================== -->
+            <script src="js/modernizr.js"></script>
+            <script src="js/pace.min.js"></script>
+         </head>
+         
+
+
+            <!-- header
+               ================================================== -->
+      <div class="row">
+            <header id="home">
+                  <nav id="nav-wrap">
+                  <a class="mobile-btn" href="#nav-wrap" title="Show navigation">
+                                    Show navigation</a>
+                  <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
+                  <ul id="nav" class="nav">
+                        <li class="current"><a class="smoothscroll" href="#projects">Projects</a></li>
+                        <li><a class="smoothscroll" href="#notebooks">Notebooks</a></li>
+                        <li><a class="smoothscroll" href="#datasets">Dataset</a></li>
+                        <li><a class="smoothscroll" href="#publications">Publication</a></li>
+                        <li><a class="smoothscroll" href="#contributions">Contributions</a></li>
+                  </ul>
+                  <!-- end #nav -->
+                  </nav>
+                  <!-- end #nav-wrap -->
+            </header>
+            <!-- /header -->
+            </div>      
+
+            <!-- Portfolio Section
+               ================================================== -->
+               <body id="top">
+            <section id="projects" class="portfolio">
+               <!-- Projects
+                  ================================================== -->
+               <div class="row section-intro">
+                  <div class="col-twelve">
+                     <h5>Portfolio</h5>
+                     <h1>Projects</h1>
+                  </div>
+               </div>
+               <!-- /section-intro--> 
+               <div class="row portfolio-content">
+                  <div class="col-twelve">
+                     <!-- portfolio-wrapper -->
+                     <div id="folio-wrapper" class="block-1-2 block-mob-full stack">
+                        <div class="bgrid folio-item">
+                           <div class="item-wrap">
+                              <img src="images/portfolio/stock_tracker.jpg" alt="Liberty">
+                              <a href="#modal-01" class="overlay">
+                                 <div class="folio-item-table">
+                                    <div class="folio-item-cell">
+                                       <h3 class="folio-title">Stock Tracker</h3>
+                                       <span class="folio-types">
+                                       Dash Server Application
+                                       </span>
+                                    </div>
+                                 </div>
+                              </a>
+                           </div>
+                        </div>
+                        <!-- /folio-item -->
+                     </div>
+                     <!-- /portfolio-wrapper --> 
+                  </div>
+                  <!-- /twelve -->   
+               </div>
+               <!-- /portfolio-content --> 
+               <!--modals-->
+               <div id="modal-01" class="popup-modal slider mfp-hide">
+                  <div class="media">
+                     <img src="images/portfolio/stock_tracker.jpg" alt="stock_tracker" />
+                  </div>
+                  <div class="description-box">
+                     <h4>Stock Tracker</h4>
+                     <p>Dash server application that uses
+                        IEX API to display stock data using ticker symbol of any
+                        NASDAQ listed company.
+                     </p>
+                     <div class="categories">Dash Server Application</div>
+                  </div>
+                  <div class="link-box">
+                     <a href="https://github.com/rajatbhardwaj29" target="_blank">
+                     Details</a>
+                     <a href="#" class="popup-modal-dismiss">Close</a>
+                  </div>
+               </div>
+               <!-- /modal-01 -->
+               </section>
+
+
+               <section id="notebooks" class="portfolio">
+               <!-- Notebooks 
+                  ================================================== -->
+               <div class="row section-intro">
+                  <div class="col-twelve">
+                     <h1 id="top-pad">Analysis Notebooks</h1>
+                  </div>
+               </div>
+               <div class="row portfolio-content">
+                  <div class="col-twelve">
+                     <!-- portfolio-wrapper -->
+                     <div id="folio-wrapper" class="block-1-2 block-mob-full stack">
+                        <div class="bgrid folio-item">
+                           <div class="item-wrap">
+                              <img src="images/portfolio/app-store-analysis.jpg" alt="app-store-analysis">
+                              <a href="#modal-04" class="overlay">
+                                 <div class="folio-item-table">
+                                    <div class="folio-item-cell">
+                                       <h3 class="folio-title">Apple's App Store Analysis</h3>
+                                       <span class="folio-types">
+                                       Jupyter Notebook
+                                       </span>
+                                    </div>
+                                 </div>
+                              </a>
+                           </div>
+                        </div>
+                        <!-- /folio-item -->
+                        <div class="bgrid folio-item">
+                           <div class="item-wrap">
+                              <img src="images/portfolio/youtube.jpg" alt="youtube">
+                              <a href="#modal-06" class="overlay">
+                                 <div class="folio-item-table">
+                                    <div class="folio-item-cell">
+                                       <h3 class="folio-title">Youtube's Trending Section Analysis</h3>
+                                       <span class="folio-types">
+                                       Jupyter Notebook
+                                       </span>
+                                    </div>
+                                 </div>
+                              </a>
+                           </div>
+                        </div>
+                        <!-- /folio-item -->
+                     </div>
+                     <!-- /portfolio-wrapper --> 
+                  </div>
+                  <!-- /twelve -->   
+               </div>
+               <!-- /portfolio-content -->
+               <!--modals-->
+               <div id="modal-04" class="popup-modal slider mfp-hide">
+                  <div class="media">
+                     <img src="images/portfolio/app-store-analysis.jpg" alt="app-store-analysis" />
+                  </div>
+                  <div class="description-box">
+                     <h4>Apple's App Store Analysis</h4>
+                     <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, 
+                        lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh 
+                        id elit.
+                     </p>
+                     <div class="categories">Jupyter Notebook</div>
+                  </div>
+                  <div class="link-box">
+                     <a href="https://www.kaggle.com/" 
+                     target="_blank">Details</a>
+                     <a href="#" class="popup-modal-dismiss">Close</a>
+                  </div>
+               </div>
+               <!-- /modal-04 -->
+               <div id="modal-06" class="popup-modal slider mfp-hide">
+                  <div class="media">
+                     <img src="images/portfolio/youtube.jpg" alt="youtube" />
+                  </div>
+                  <div class="description-box">
+                     <h4>Youtube's Trending Section Analysis</h4>
+                     <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, 
+                        lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis
+                        sem nibh id elit.
+                     </p>
+                     <div class="categories">Jupyter Notebook</div>
+                  </div>
+                  <div class="link-box">
+                     <a href="notebooks-demo/youtube-analysis.html" target="_blank">Details</a>
+                     <a href="#" class="popup-modal-dismiss">Close</a>
+                  </div>
+               </div>
+               <!-- /modal-06 -->
+            </section>
+
+            <section id="datasets" class="portfolio">
+               <!-- Datasets
+                  ================================================== -->
+               <div class="row section-intro">
+                  <div class="col-twelve">
+                     <h1 id="top-pad">Datasets</h1>
+                  </div>
+               </div>
+               <div class="row portfolio-content">
+                  <div class="col-twelve">
+                     <!-- portfolio-wrapper -->
+                     <div id="folio-wrapper" class="block-1-2 block-mob-full stack">
+                        <div class="bgrid folio-item">
+                           <div class="item-wrap">
+                              <img src="images/portfolio/data-original.jpg" alt="data-original">
+                              <a href="#modal-05" class="overlay">
+                                 <div class="folio-item-table">
+                                    <div class="folio-item-cell">
+                                       
+                                        
+                                       <span class="folio-types">
+                                       Dataset at kaggle.com
+                                       </span>
+                                    </div>
+                                 </div>
+                              </a>
+                           </div>
+                        </div>
+                        <!-- /folio-item -->
+                     </div>
+                     <!-- /portfolio-wrapper --> 
+                  </div>
+                  <!-- /twelve -->   
+               </div>
+               <!-- /portfolio-content -->
+               <!--modals-->
+               <div id="modal-05" class="popup-modal slider mfp-hide">
+                  <div class="media">
+                     <img src="images/portfolio/data-original.jpg" alt="data-original" />
+                  </div>
+                  <div class="description-box">
+                     <h4>......</h4>
+                     <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem 
+                           quis 
+                        bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.
+                     </p>
+                     <div class="categories">Dataset at kaggle.com</div>
+                  </div>
+                  <div class="link-box">
+                     <a href="https://www.kaggle.com/"
+                        target="_blank">Details</a>
+                     <a href="#" class="popup-modal-dismiss">Close</a>
+                  </div>
+               </div>
+               <!-- /modal-05 -->
+            </section>
+
+            <section id="publications" class="portfolio">
+               <!-- Publication
+                  ================================================== -->
+               <div class="row section-intro">
+                  <div class="col-twelve">
+                     <h1 id="top-pad">Publication</h1>
+                  </div>
+               </div>
+               <div class="row portfolio-content">
+                  <div class="col-twelve">
+                     <!-- portfolio-wrapper -->
+                     <div id="folio-wrapper" class="block-1-2 block-mob-full stack">
+                         <div class="bgrid folio-item">
+                               <div class="item-wrap">
+                                    <img src="images/portfolio/publication_logo3.jpg" 
+                                        alt="Linear Algebra logo">
+                                    <a href="#modal-02" class="overlay" >
+                                     <div class="folio-item-table">
+                                                 <div class="folio-item-cell">
+                                                 <h3 class="folio-title">Linear Algebra</h3>
+                                                         <span class="folio-types">
+                                                             Publication at medium.com
+                                                         </span>
+                                                   </div>
+                                                   </div>
+                                             </a>
+                                          </div>
+                                       </div>
+                     </div>
+                     <!-- /portfolio-wrapper --> 
+                  </div>
+                  <!-- /twelve -->   
+               </div>
+               <!-- /portfolio-content --> 
+               <!--modals-->
+               <div id="modal-02" class="popup-modal slider mfp-hide">
+                  <div class="media">
+                     <img src="images/portfolio/publication_logo3.jpg" 
+                        alt="linear-algebra logo" />
+                  </div>
+                  <div class="description-box">
+                     <h4>Linear Algebra</h4>
+                     <p>A course for basic concepts and application of linear 
+                        algebra in Data Science
+                     </p>
+                     <div class="categories">Publication at medium.com</div>
+                  </div>
+                  <div class="link-box">
+                     <a href="https://medium.com/linear-algebra" target="_blank">Details</a>
+                     <a href="#" class="popup-modal-dismiss">Close</a>
+                  </div>
+               </div>
+               <!-- /modal-02 -->
+            </section>
+
+            <section id="contributions" class="portfolio">
+               <!-- Contributions
+                  ================================================== -->
+               <div class="row section-intro">
+                  <div class="col-twelve">
+                     <h1 id="top-pad">Contributions</h1>
+                     <h3>Projects</h3>
+                  </div>
+               </div>
+               <div class="row portfolio-content">
+                  <div class="col-twelve">
+                     <!-- portfolio-wrapper -->
+                     <div id="folio-wrapper" class="block-1-2 block-mob-full stack">
+                        <div class="bgrid folio-item">
+                           <div class="item-wrap">
+                              <img src="images/portfolio/flaskerizer.jpg" alt="flaskerizer">
+                              <a href="#modal-03" class="overlay">
+                                 <div class="folio-item-table">
+                                    <div class="folio-item-cell">
+                                       <h3 class="folio-title">Flaskerizer</h3>
+                                       <span class="folio-types">
+                                       Python Application
+                                       </span>
+                                    </div>
+                                 </div>
+                              </a>
+                           </div>
+                        </div>
+                        <!-- /folio-item -->
+                     </div>
+                     <!-- /portfolio-wrapper --> 
+                  </div>
+                  <!-- /twelve -->   
+               </div>
+               <!-- /portfolio-content --> 
+               <div class="row section-intro">
+                  <div class="col-twelve">
+                     <h3 id="top-pad">Datasets</h3>
+                  </div>
+               </div>
+               <div class="row portfolio-content">
+                  <div class="col-twelve">
+                     <!-- portfolio-wrapper -->
+                     <div id="folio-wrapper" class="block-1-2 block-mob-full stack">
+                        <div class="bgrid folio-item">
+                           <div class="item-wrap">
+                              <img src="images/portfolio/youtube.jpg" alt="youtube">
+                              <a href="#modal-07" class="overlay">
+                                 <div class="folio-item-table">
+                                    <div class="folio-item-cell">
+                                       <h3 class="folio-title">Trending YouTube Video 
+                                          Statistics
+                                       </h3>
+                                       <span class="folio-types">
+                                       Dataset at kaggle.com
+                                       </span>
+                                    </div>
+                                 </div>
+                              </a>
+                           </div>
+                        </div>
+                        <!-- /folio-item -->
+                     </div>
+                     <!-- /portfolio-wrapper --> 
+                  </div>
+                  <!-- /twelve -->   
+               </div>
+               <!-- /portfolio-content --> 
+               <!--modals-->
+               <div id="modal-03" class="popup-modal slider mfp-hide">
+                  <div class="media">
+                     <img src="images/portfolio/flaskerizer.jpg" alt="flaskerizer" />
+                  </div>
+                  <div class="description-box">
+                     <h4>Flaskerizer</h4>
+                     <p>		
+                        The Flaskerizer automates the necessary directory building and link 
+                        creation needed to make Bootstrap templates work "out of the box" 
+                        with Flask. 
+                     </p>
+                     <div class="categories">Python Application</div>
+                  </div>
+                  <div class="link-box">
+                     <a href="https://github.com/brettvanderwerff/Flaskerizer" target="_blank">
+                     Details</a>
+                     <a href="#" class="popup-modal-dismiss">Close</a>
+                  </div>
+               </div>
+               <!-- /modal-03 -->
+               <div id="modal-07" class="popup-modal slider mfp-hide">
+                  <div class="media">
+                     <img src="images/portfolio/youtube.jpg" alt="youtube" />
+                  </div>
+                  <div class="description-box">
+                     <h4>Trending YouTube Video Statistics</h4>
+                     <p>		
+                        YouTube (the world-famous video sharing website) maintains a list of the 
+                        top 
+                        trending videos on the platform. According to Variety magazine, “To 
+                        determine 
+                        the year’s top-trending videos, YouTube uses a combination of factors 
+                        including measuring users interactions (number of views, shares, comments 
+                        and likes). This dataset is a daily record of the top trending YouTube 
+                        videos. 
+                     </p>
+                     <div class="categories">Dataset at kaggle.com</div>
+                  </div>
+                  <div class="link-box">
+                     <a href="https://www.kaggle.com/datasnaek/youtube-new/discussion/55776" target="_blank">
+                     Details</a>
+                     <a href="#" class="popup-modal-dismiss">Close</a>
+                  </div>
+               </div>
+               <!-- /modal-03 -->
+            </section>
+
+            <section class="portfolio">
+               <!-- Back to home
+                  ================================================== -->
+               <div class="row section-intro">
+                  <div class="col-twelve">
+                     <a class="button button-primary full-width" href="index.html">
+                     <i class="fas fa-chevron-left fa-sm"></i> Return to home </a>
+                  </div>
+               </div>
+            </section>
+         
+            <!-- /portfolio --> 
+            <div class="row contact-info">
+               <div class="col-eight tab-full">
+                  <div class="icon">
+                     <i class="icon-pin"></i>
+                  </div>
+                  <h5>Where to find me</h5>
+                  <p>
+                     Delhi,<br>
+                     India<br>
+                  </p>
+               </div>
+               <div class="col-two tab-full collapse">
+                  <div class="icon">
+                     <i class="icon-mail"></i>
+                  </div>
+                  <h5>Email Me At</h5>
+                  <p>rajat.bhardwaj2000@gmail.com</p>
+               </div>
+            </div>
+            <!-- /contact-info -->
+            </section> <!-- /contact -->
+            <!-- footer
+               ================================================== -->
+            <footer>
+               <div class="row">
+                  <div class="col-six tab-full pull-right social">
+                     <ul class="footer-social">
+                        <li><a href="https://github.com/rajatbhardwaj29" target="_blank">
+                           <i class="fab fa-github fa-lg"></i></a>
+                        </li>
+                        <li><a href="https://www.kaggle.com/ target="_blank">
+                           <i class="fab fa-kaggle fa-lg"></i></a>
+                        </li>
+                        <li><a href="https://www.linkedin.com/in" target="_blank">
+                           <i class="fab fa-linkedin-in fa-lg"></i></a>
+                        </li>
+                        <li><a href="https://medium.com/@av_nish" target="_blank">
+                           <i class="fab fa-medium fa-lg"></i></a>
+                        </li>
+                     </ul>
+                  </div>
+                  <div class="col-six tab-full">
+                     <div class="copyright">
+                        <span>Design derived from 
+                        <a href="https://www.styleshout.com/free-templates/kards/"
+                           target="_blank">Kards Template</a></span>	         	
+                     </div>
+                  </div>
+                  <div id="go-top">
+                     <a class="smoothscroll" title="Back to Top" href="#top">
+                     <i class="fas fa-long-arrow-alt-up"></i></a>
+                  </div>
+               </div>
+               <!-- /row --> 
+            </footer>
+            <div id="preloader">
+               <div id="loader"></div>
+            </div>
+            <!-- Java Script
+               ================================================== -->
+            <script src="js/jquery-2.1.3.min.js"></script>
+            <script src="js/plugins.js"></script>
+            <script src="js/main.js"></script>
+         </body>
+      </html>
