@@ -12,7 +12,7 @@
             <!--- basic page needs
                ================================================== -->
             <meta charset="utf-8">
-            <title>Avnish</title>
+            <title>Rajat</title>
             <meta name="description" content="Portfolio of Rajat Bhardwaj">
             <meta name="author" content="Rajat">
             <!-- mobile specific metas
